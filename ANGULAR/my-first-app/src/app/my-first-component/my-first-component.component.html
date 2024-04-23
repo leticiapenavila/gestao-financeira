@@ -1,0 +1,11 @@
+<body>
+    <main>
+        <section class="container">
+            <div class="icons" *ngFor="let animal of animais">
+                <h2>{{animal.name}}</h2>
+                <img class="first-photo" src="{{ animal.image }}">
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>

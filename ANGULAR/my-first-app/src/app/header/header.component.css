@@ -1,0 +1,20 @@
+
+header{
+    background: linear-gradient(-45deg, #e81cff 0%, #25142D 100% );
+    transform: translate3d(0px, 10px, 0) scale(0.95);
+    width: 100%;
+    height: 150px;
+}
+
+.image-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 260px;
+    background-color: linear-gradient(-45deg, #e81cff 0%, #25142D 100% );
+        transform: translate3d(0px, 10px, 0) scale(0.95);
+}

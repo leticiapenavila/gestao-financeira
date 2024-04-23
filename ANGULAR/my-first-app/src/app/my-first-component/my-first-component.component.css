@@ -1,0 +1,26 @@
+
+.first-photo{
+    width: 250px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.first-photo:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
